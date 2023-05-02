@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-  font-size: 38px;
+  /* font-size: 38px;÷ */
 }
 
 h2 {
@@ -72,3 +72,26 @@ h2 + .user_review {
     border-top: 1px solid black;
 }
 
+nav li {
+  display: inline-block;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+}
+
+body {
+  width: 700px;
+  margin: 0 auto;
+  /* display: flex; */
+}
+
+aside {
+  width: 180px;
+  display: inline-block;
+}
+
+section {
+  float: left;
+}
